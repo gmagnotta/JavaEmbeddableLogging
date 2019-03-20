@@ -200,9 +200,6 @@ public class FileSystemLogStore {
 
 	/*
 	 * (non-Javadoc)
-	 * 
-	 * @see com.phoenix2.embedded.client.common.logger.impl.filesystem.LogStore#
-	 * getLogFileNames()
 	 */
 	public List<String> getLogFileNames() throws IOException {
 
@@ -222,9 +219,6 @@ public class FileSystemLogStore {
 
 	/*
 	 * (non-Javadoc)
-	 * 
-	 * @see com.phoenix2.embedded.client.common.logger.impl.filesystem.LogStore#
-	 * createLogFile(java.lang.String)
 	 */
 	public void createLogFile(String logFileName) throws IOException {
 
@@ -245,9 +239,6 @@ public class FileSystemLogStore {
 
 	/*
 	 * (non-Javadoc)
-	 * 
-	 * @see com.phoenix2.embedded.client.common.logger.impl.filesystem.LogStore#
-	 * deleteLogFile(java.lang.String)
 	 */
 	public void deleteLogFile(String logFileName) throws IOException {
 
@@ -268,9 +259,6 @@ public class FileSystemLogStore {
 
 	/*
 	 * (non-Javadoc)
-	 * 
-	 * @see com.phoenix2.embedded.client.common.logger.impl.filesystem.LogStore#
-	 * getLogFileSize(java.lang.String)
 	 */
 	public long getLogFileSize(String logFileName) throws IOException {
 
@@ -286,9 +274,6 @@ public class FileSystemLogStore {
 
 	/*
 	 * (non-Javadoc)
-	 * 
-	 * @see com.phoenix2.embedded.client.common.logger.impl.filesystem.LogStore#
-	 * getLogFileOutputStream(java.lang.String)
 	 */
 	public OutputStream getLogFileOutputStream(String logFileName)
 			throws IOException {
@@ -305,9 +290,6 @@ public class FileSystemLogStore {
 
 	/*
 	 * (non-Javadoc)
-	 * 
-	 * @see com.phoenix2.embedded.client.common.logger.impl.filesystem.LogStore#
-	 * getLogFileInputStream(java.lang.String)
 	 */
 	public InputStream getLogFileInputStream(String logFileName)
 			throws IOException {
